@@ -16,5 +16,20 @@
 
         <!-- Project Properties -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- JUnit Jupiter Properties -->
+        <junit.jupiter.version>5.9.3</junit.jupiter.version>
     </properties>
+
+    <dependencies>
+        <!-- Test Dependencies -->
+
+        <!-- JUnit Jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
